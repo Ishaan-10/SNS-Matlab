@@ -12,7 +12,7 @@ for i=1:n
 end
 plot(x,y)
 xlim([-10 10])
-ylim([-5 5])
+ylim([-1 1])
 xlabel('X');
 ylabel('Y');
 title('Unit Step Function - Yash Mathur');

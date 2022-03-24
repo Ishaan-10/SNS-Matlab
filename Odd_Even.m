@@ -7,11 +7,11 @@ unitstepfinal=unitstep1-unitstep2;
 
 odd=(unitstepfinal-flip(unitstepfinal))/2;
 even=(unitstepfinal+flip(unitstepfinal))/2;
-subplot(2,2,1);
+subplot(2,1,1);
 stem(t,odd);
 xlabel('Time(sec)');ylabel('x(t)');
 title('Odd Function Yash Mathur 102015122');
-subplot(2,2,2);
+subplot(2,1,2);
 stem(t,even);
 xlabel('Time(sec)');ylabel('x(t)');
 title('Even function Yash Mathur 102015122');
